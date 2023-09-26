@@ -17,7 +17,7 @@ When you use the open() function to open a file, the fd assigned to the file wil
 
 (2) Using calloc is a good idea.  It saves me from expressly checking whether malloc fails each time, and also saves me from having to add an extra null character to the end of the string each time.
 
-(3) Static variables need not be initiated in the funciton where it is called.  In fact it should not be initiated, as to iniate it each time it is called would be to defeat the point of a static variable altogether.
+(3) Static variables need not be initiated in the funciton where it is called.  In fact it should not be initiated, as to initiate it each time it is called would be to defeat the point of a static variable altogether.
 
 (4) The hardest part for me (and I only got it after flailing for days and peeking at someone else's homework for the answer) was the memory management for the read_file function.  The key insight is that the situation is radically different (1) the first time you read into the buffer and (2) every time thereafter.  (1) The first time there would be no need to append the bytes read after anything.  (2) Afterwards, you need to append what you now read to what you have read before.
 
