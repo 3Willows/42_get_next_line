@@ -1,6 +1,6 @@
 # 42get_next_line
 
-This homework submission (made in July 2023) is heavily borrowed from the followig sources:-
+This homework submission (made in July 2023) is heavily borrowed from the following sources:-
 
 https://github.com/jdecorte-be/42-Get-next-line.git \n
 https://github.com/constantinWho/minishell/blob/main/lib/libft/src/get_next_line.c
