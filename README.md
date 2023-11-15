@@ -10,4 +10,8 @@ A "line" ends when either:-
 
 * there are no more text characters to be read.
 
-As with other Berlin 42 subjects, there are a number of restrictions making this very difficult for the novice.  I struggled for this for a long time, but when I finally got there the experience was rewarding.
+As with other Berlin 42 subjects, there are a number of restrictions making this very difficult for the novice.  
+
+In particular, it is really hard to understand what you are meant to achieve at first.  The instructions take a lot of ti·me to understand: merely downloading and getting someone else's answer to work is itself a challenge that might take half a day/full day.
+
+I struggled for this for a long time, but when I finally got there the experience was rewarding.
